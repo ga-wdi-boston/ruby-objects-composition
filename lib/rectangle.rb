@@ -8,13 +8,9 @@ class Rectangle < Shape
     @num_sides = 4
     super(@num_sides, @length)
   end
-
-  def area
-    @length * @width
-  end
 end
 
 # tests
 my_rectangle = Rectangle.new(4, 3)
 p my_rectangle
-p "Area: #{my_rectangle.area}"
+p "Area: #{my_rectangle.calculate_area}"

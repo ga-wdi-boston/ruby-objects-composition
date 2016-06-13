@@ -11,5 +11,4 @@ end
 # tests
 my_square = Square.new(4)
 p my_square
-p "Area: #{my_square.area}"
-p "Polygon Area: #{my_square.calculate_area}"
+p "Area: #{my_square.calculate_area}"
