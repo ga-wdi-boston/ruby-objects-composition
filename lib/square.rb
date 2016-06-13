@@ -12,3 +12,4 @@ end
 my_square = Square.new(4)
 p my_square
 p "Area: #{my_square.calculate_area}"
+p "Rectangle Area: #{my_square.rectangle_area}"
